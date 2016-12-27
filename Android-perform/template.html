@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Dengta Android Automation Report</title>
+
+		<script type="text/javascript" src="../../js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+
+var avg_cpu = @avg_cpu;
+var avg_mem = @avg_mem;
+var avg_fps = @avg_fps;
+
+
+function showSummary()
+{
+    $('#average_cpu').text(avg_cpu+"%");
+    $('#average_memory').text(avg_mem+"MB");
+    $('#average_fps').text(avg_fps);
+}
+$(function () {
+var chart = {
+	chart: {
+        events: {
+            click: function(evt) {
+                var xValue = evt.xAxis[0].value;
+                var xAxis = evt.xAxis[0].axis;
+
+                $.each(xAxis.plotLinesAndBands,function(){
+                    if(this.id === 'mark')
+                    {
+                        this.destroy();
+                    }
+                });
+				console.log('value: '+xValue);
+                xAxis.addPlotLine({
+                    value: xValue,
+                    width: 1,
+                    color: 'red',
+                    //dashStyle: 'dash',
+                    id: 'mark'
+                });
+            }
+        }
+	},
+	title: {
+		text: 'Performamce',
+		x: -20 //center
+	},
+	xAxis: {
+		type: 'datetime',
+		plotLines: []
+	},
+	yAxis: [{
+		labels: {
+			enabled: false,
+			format: 'screenshot',
+			style: {
+				color: Highcharts.getOptions().colors[3]
+			},
+		},
+		height: 10,
+		style: {
+			color: Highcharts.getOptions().colors[3]
+		},
+	}, {
+		labels: {
+			format: '{value}%',
+			style: {
+				color: Highcharts.getOptions().colors[0]
+			},
+			x: 30,
+			align: 'right'
+		},
+		title: {
+			text: 'CPU',
+			offset: 40
+		},
+		top: 70,
+		height: 150,
+		min: 0,
+		//max: 100,
+		style: {
+			color: Highcharts.getOptions().colors[0]
+		},
+		showLastLabel: true,
+		//tickPositions: [0, 50, 90, 100],
+		plotBands: [{
+			color: '#eee',
+		    from: 90,
+		    to: 200,
+		}],
+	}, {
+		labels: {
+			format: '{value}MB',
+			style: {
+				color: Highcharts.getOptions().colors[7]
+			},
+			x:-20,
+		   align: 'right'
+		},
+		title: {
+			text: 'Memory',
+			offset: -10
+		},
+		top: 230,
+		height: 150,
+		min: 0,
+		style: {
+			color: Highcharts.getOptions().colors[7]
+		},
+		opposite: true
+	}, {
+		labels: {
+			format: '{value}KB',
+			style: {
+				color: Highcharts.getOptions().colors[2]
+			},
+			x:-20,
+		   align: 'right'
+		},
+		title: {
+			text: 'Network',
+			offset: -10
+		},
+		top: 390,
+		height: 150,
+		min: 0,
+		style: {
+			color: Highcharts.getOptions().colors[2]
+		},
+		opposite: true
+	}, {
+		labels: {
+			format: '{value}',
+			style: {
+				color: '#45ADFA'
+			},
+			x:-30,
+		   align: 'right'
+		},
+		title: {
+			text: 'FPS',
+			offset: -20
+		},
+		top: 550,
+		height: 150,
+		min: 0,
+		style: {
+			color: '#45ADFA'
+        },
+		opposite: true
+	}],
+	rangeSelector: {
+		enabled: false,
+		selected: 1
+	},
+	legend: {
+		layout: 'vertical',
+		align: 'right',
+		verticalAlign: 'middle',
+		floating: true
+	},
+	series: [{
+		name: 'CPU',
+		type: 'area',
+		yAxis: 1,
+		data: [@cpudata],
+		color: Highcharts.getOptions().colors[0],
+		tooltip: {
+			valueSuffix: ' %'
+		}
+	}, {
+		name: 'Memory',
+		type: 'area',
+		yAxis: 2,
+		data: [@memdata],
+		color: Highcharts.getOptions().colors[7],
+		tooltip: {
+			valueSuffix: ' MB'
+		}
+	}, {
+		name: 'Fps',
+		type: 'area',
+		yAxis: 4,
+		data: [@fpsdata],
+		color: '#45ADFA',
+		tooltip: {
+			valueSuffix: ' '
+		}
+	}]
+};
+	showSummary();
+	$('#container').highcharts('StockChart', chart);
+});
+
+
+		</script>
+	</head>
+	<body>
+		<div></div>
+		<h1 style="border-bottom: 1px solid #eee; padding-bottom:9px">Summary</h1>
+        <div></div>
+		<br>
+        <div id="average">
+            CPU_Average:  <span id='average_cpu' style="color: #87CEFA">0</span> &nbsp;&nbsp;
+            Memory_Average:  <span id='average_memory' style="color: blue">0</span> &nbsp;&nbsp;
+            FPS_Average:  <span id='average_fps' style="color: #45ADFA">0</span>
+        </div>
+		<br>
+		<div id="container" style="min-width: 310px; height: 820px; margin: 0 auto"></div>
+
+		<script src="../../js/highcharts-custom-jquery.js"></script>
+	</body>
+</html>

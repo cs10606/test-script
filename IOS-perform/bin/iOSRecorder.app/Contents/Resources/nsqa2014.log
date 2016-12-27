@@ -1,0 +1,407 @@
+2016-08-25 11:43:16.765 iOSRecorder[97939:17746816] <__NSCFTimer: 0x100282770>
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:43:26.410 instruments[97961:17747014] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Waiting for device to boot...
+2016-08-25 11:43:26.847 instruments[97961:17747071] Connection peer refused channel request for "com.apple.instruments.server.services.capabilities"; channel canceled <DTXChannel: 0x7f8e32457a00>
+2016-08-25 11:43:26.847 instruments[97961:17747071] Connection peer refused channel request for "com.apple.instruments.server.services.device.xpccontrol"; channel canceled <DTXChannel: 0x7f8e34c4b0a0>
+2016-08-25 11:43:26.847 instruments[97961:17747071] Connection peer refused channel request for "com.apple.instruments.server.services.deviceinfo"; channel canceled <DTXChannel: 0x7f8e349f5eb0>
+2016-08-25 11:43:26.848 instruments[97961:17747017] Connection peer refused channel request for "com.apple.instruments.server.services.processcontrol"; channel canceled <DTXChannel: 0x7f8e325621a0>
+2016-08-25 11:43:26.849 instruments[97961:17747017] Connection peer refused channel request for "com.apple.instruments.server.services.processcontrol.posixspawn"; channel canceled <DTXChannel: 0x7f8e34c64960>
+2016-08-25 11:43:26.849 instruments[97961:17747017] Connection peer refused channel request for "com.apple.instruments.server.services.mobilenotifications"; channel canceled <DTXChannel: 0x7f8e34c47fc0>
+2016-08-25 11:43:26.849 instruments[97961:17747017] Connection peer refused channel request for "com.apple.instruments.server.services.device.applictionListing"; channel canceled <DTXChannel: 0x7f8e34ab0870>
+2016-08-25 11:43:26.849 instruments[97961:17747017] Connection peer refused channel request for "com.apple.instruments.server.services.wireless"; channel canceled <DTXChannel: 0x7f8e34bc0090>
+2016-08-25 11:43:26.931 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.capabilities"; channel canceled <DTXChannel: 0x7f8e32733620>
+2016-08-25 11:43:26.932 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.device.xpccontrol"; channel canceled <DTXChannel: 0x7f8e32732090>
+2016-08-25 11:43:26.932 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.deviceinfo"; channel canceled <DTXChannel: 0x7f8e3272a7a0>
+2016-08-25 11:43:26.932 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.processcontrol"; channel canceled <DTXChannel: 0x7f8e327339c0>
+2016-08-25 11:43:26.932 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.processcontrol.posixspawn"; channel canceled <DTXChannel: 0x7f8e3275fd10>
+2016-08-25 11:43:26.932 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.mobilenotifications"; channel canceled <DTXChannel: 0x7f8e32547c80>
+2016-08-25 11:43:26.932 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.device.applictionListing"; channel canceled <DTXChannel: 0x7f8e32545770>
+2016-08-25 11:43:26.932 instruments[97961:17747099] Connection peer refused channel request for "com.apple.instruments.server.services.wireless"; channel canceled <DTXChannel: 0x7f8e3255db30>
+2016-08-25 11:43:27.008 instruments[97961:17747071] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+2016-08-25 11:43:27.238 instruments[97961:17747071] WebKit Threading Violation - initial use of WebKit from a secondary thread.
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:43:39.926 instruments[97984:17747223] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:43:44.944 instruments[98004:17747299] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.inhouse.stock
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:02.180 instruments[98025:17747538] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:06.618 instruments[98045:17747644] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock.reserve
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:07.844 instruments[98072:17747674] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock.reserve
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:08.363 instruments[98099:17747855] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock.reserve
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:08.376 instruments[98108:17747870] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock.reserve
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:08.397 instruments[98113:17747828] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock.reserve
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:11.329 iOSRecorder[97939:17746816] User entered: tag
+2016-08-25 11:44:14.324 instruments[98140:17747928] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: com.wedengta.stock.reserve
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:16.353 iOSRecorder[97939:17746816] User cancelled
+2016-08-25 11:44:22.135 iOSRecorder[97939:17746816] function perform(tag){
+	UIALogger.logMessage("tag:::::"+tag);
+}
+function per_common(tag,Fun,x){
+	perform(tag);
+	for (var i = 0; i<x ; i++){
+		Fun();
+}
+	perform(tag);
+}
+2016-08-25 11:44:22.135 iOSRecorder[97939:17746816] function perform(tag){
+	UIALogger.logMessage("tag:::::"+tag);
+}
+function per_common(tag,Fun,x){
+	perform(tag);
+	for (var i = 0; i<x ; i++){
+		Fun();
+}
+	perform(tag);
+}
+2016-08-25 11:44:23.367 iOSRecorder[97939:17746816] function perform(tag){
+	UIALogger.logMessage("tag:::::"+tag);
+}
+function per_common(tag,Fun,x){
+	perform(tag);
+	for (var i = 0; i<x ; i++){
+		Fun();
+}
+	perform(tag);
+}
+2016-08-25 11:44:23.368 iOSRecorder[97939:17746816] function perform(tag){
+	UIALogger.logMessage("tag:::::"+tag);
+}
+function per_common(tag,Fun,x){
+	perform(tag);
+	for (var i = 0; i<x ; i++){
+		Fun();
+}
+	perform(tag);
+}
++ rootPath=/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources
++ appPath=
++ app=
++ '[' = ipa ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 9: [: =: unary operator expected
++ '[' = app ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 20: [: =: unary operator expected
+++ ioreg -w 0 -rc IOUSBDevice -k SupportsIPhoneOS
+++ grep 'USB Serial Number'
+++ cut -d= -f2
+++ cut '-d"' -f2
++ uuid=f9b2f389f7b5c359b14ec637306412bb69facdfe
++ '[' 40 -eq 40 ']'
++ /Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/iosutil -s f9b2f389f7b5c359b14ec637306412bb69facdfe install
+iosutil version 0.9.7
+
+  -s <device id>                                      specific device
+  devices                                             list all connected devices
+
+device commands:
+  install <.app/.ipa path>                            install app
+  uninstall <bundle id>                               uninstall app
+  listapp                                             list all installed apps
+  logcat                                              tail syslog
+  info                                                show device infos
+  ls [-b <bundle id|crash>] <path>                    ls directory
+  push [-b <bundle id|crash>] <local> <remote>        copy file/dir to device
+  pull [-b <bundle id|crash>] <remote> <local>        copy file/dir from device
+  rm [-b <bundle id|crash>] <remote>                  remove file/dir from device
+
+example:
+  iosutil ls /
+  iosutil ls -b crash /
+  iosutil ls -b com.baidu.BaiduMobile /Documents
+
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:44:26.449 instruments[98173:17748173] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
++ rootPath=/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources
++ appPath=
++ app=
++ '[' = ipa ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 9: [: =: unary operator expected
++ '[' = app ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 20: [: =: unary operator expected
+++ ioreg -w 0 -rc IOUSBDevice -k SupportsIPhoneOS
+++ grep 'USB Serial Number'
+++ cut -d= -f2
+++ cut '-d"' -f2
++ uuid=f9b2f389f7b5c359b14ec637306412bb69facdfe
++ '[' 40 -eq 40 ']'
++ /Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/iosutil -s f9b2f389f7b5c359b14ec637306412bb69facdfe install
+iosutil version 0.9.7
+
+  -s <device id>                                      specific device
+  devices                                             list all connected devices
+
+device commands:
+  install <.app/.ipa path>                            install app
+  uninstall <bundle id>                               uninstall app
+  listapp                                             list all installed apps
+  logcat                                              tail syslog
+  info                                                show device infos
+  ls [-b <bundle id|crash>] <path>                    ls directory
+  push [-b <bundle id|crash>] <local> <remote>        copy file/dir to device
+  pull [-b <bundle id|crash>] <remote> <local>        copy file/dir from device
+  rm [-b <bundle id|crash>] <remote>                  remove file/dir from device
+
+example:
+  iosutil ls /
+  iosutil ls -b crash /
+  iosutil ls -b com.baidu.BaiduMobile /Documents
+
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:44:28.382 instruments[98203:17748249] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
++ rootPath=/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources
++ appPath=
++ app=
++ '[' = ipa ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 9: [: =: unary operator expected
++ '[' = app ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 20: [: =: unary operator expected
+++ ioreg -w 0 -rc IOUSBDevice -k SupportsIPhoneOS
+++ grep 'USB Serial Number'
+++ cut -d= -f2
+++ cut '-d"' -f2
++ uuid=f9b2f389f7b5c359b14ec637306412bb69facdfe
++ '[' 40 -eq 40 ']'
++ /Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/iosutil -s f9b2f389f7b5c359b14ec637306412bb69facdfe install
+iosutil version 0.9.7
+
+  -s <device id>                                      specific device
+  devices                                             list all connected devices
+
+device commands:
+  install <.app/.ipa path>                            install app
+  uninstall <bundle id>                               uninstall app
+  listapp                                             list all installed apps
+  logcat                                              tail syslog
+  info                                                show device infos
+  ls [-b <bundle id|crash>] <path>                    ls directory
+  push [-b <bundle id|crash>] <local> <remote>        copy file/dir to device
+  pull [-b <bundle id|crash>] <remote> <local>        copy file/dir from device
+  rm [-b <bundle id|crash>] <remote>                  remove file/dir from device
+
+example:
+  iosutil ls /
+  iosutil ls -b crash /
+  iosutil ls -b com.baidu.BaiduMobile /Documents
+
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:44:35.071 instruments[98232:17748358] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
++ rootPath=/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources
++ appPath=
++ app=
++ '[' = ipa ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 9: [: =: unary operator expected
++ '[' = app ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 20: [: =: unary operator expected
+++ ioreg -w 0 -rc IOUSBDevice -k SupportsIPhoneOS
+++ grep 'USB Serial Number'
+++ cut -d= -f2
+++ cut '-d"' -f2
++ uuid=f9b2f389f7b5c359b14ec637306412bb69facdfe
++ '[' 40 -eq 40 ']'
++ /Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/iosutil -s f9b2f389f7b5c359b14ec637306412bb69facdfe install
+iosutil version 0.9.7
+
+  -s <device id>                                      specific device
+  devices                                             list all connected devices
+
+device commands:
+  install <.app/.ipa path>                            install app
+  uninstall <bundle id>                               uninstall app
+  listapp                                             list all installed apps
+  logcat                                              tail syslog
+  info                                                show device infos
+  ls [-b <bundle id|crash>] <path>                    ls directory
+  push [-b <bundle id|crash>] <local> <remote>        copy file/dir to device
+  pull [-b <bundle id|crash>] <remote> <local>        copy file/dir from device
+  rm [-b <bundle id|crash>] <remote>                  remove file/dir from device
+
+example:
+  iosutil ls /
+  iosutil ls -b crash /
+  iosutil ls -b com.baidu.BaiduMobile /Documents
+
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:44:37.085 instruments[98263:17748404] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
++ rootPath=/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources
++ appPath=
++ app=
++ '[' = ipa ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 9: [: =: unary operator expected
++ '[' = app ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 20: [: =: unary operator expected
+++ ioreg -w 0 -rc IOUSBDevice -k SupportsIPhoneOS
+++ grep 'USB Serial Number'
+++ cut -d= -f2
+++ cut '-d"' -f2
++ uuid=f9b2f389f7b5c359b14ec637306412bb69facdfe
++ '[' 40 -eq 40 ']'
++ /Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/iosutil -s f9b2f389f7b5c359b14ec637306412bb69facdfe install
+iosutil version 0.9.7
+
+  -s <device id>                                      specific device
+  devices                                             list all connected devices
+
+device commands:
+  install <.app/.ipa path>                            install app
+  uninstall <bundle id>                               uninstall app
+  listapp                                             list all installed apps
+  logcat                                              tail syslog
+  info                                                show device infos
+  ls [-b <bundle id|crash>] <path>                    ls directory
+  push [-b <bundle id|crash>] <local> <remote>        copy file/dir to device
+  pull [-b <bundle id|crash>] <remote> <local>        copy file/dir from device
+  rm [-b <bundle id|crash>] <remote>                  remove file/dir from device
+
+example:
+  iosutil ls /
+  iosutil ls -b crash /
+  iosutil ls -b com.baidu.BaiduMobile /Documents
+
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:44:40.133 instruments[98298:17748515] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:44:41.152 iOSRecorder[97939:17746816] function perform(tag){
+	UIALogger.logMessage("tag:::::"+tag);
+}
+function per_common(tag,Fun,x){
+	perform(tag);
+	for (var i = 0; i<x ; i++){
+		Fun();
+}
+	perform(tag);
+}
+2016-08-25 11:44:41.152 iOSRecorder[97939:17746816] function perform(tag){
+	UIALogger.logMessage("tag:::::"+tag);
+}
+function per_common(tag,Fun,x){
+	perform(tag);
+	for (var i = 0; i<x ; i++){
+		Fun();
+}
+	perform(tag);
+}
+2016-08-25 11:44:43.282 iOSRecorder[97939:17746816] User entered: tag
++ rootPath=/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources
++ appPath=
++ app=
++ '[' = ipa ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 9: [: =: unary operator expected
++ '[' = app ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 20: [: =: unary operator expected
+++ ioreg -w 0 -rc IOUSBDevice -k SupportsIPhoneOS
+++ grep 'USB Serial Number'
+++ cut -d= -f2
+++ cut '-d"' -f2
++ uuid=f9b2f389f7b5c359b14ec637306412bb69facdfe
++ '[' 40 -eq 40 ']'
++ /Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/iosutil -s f9b2f389f7b5c359b14ec637306412bb69facdfe install
+iosutil version 0.9.7
+
+  -s <device id>                                      specific device
+  devices                                             list all connected devices
+
+device commands:
+  install <.app/.ipa path>                            install app
+  uninstall <bundle id>                               uninstall app
+  listapp                                             list all installed apps
+  logcat                                              tail syslog
+  info                                                show device infos
+  ls [-b <bundle id|crash>] <path>                    ls directory
+  push [-b <bundle id|crash>] <local> <remote>        copy file/dir to device
+  pull [-b <bundle id|crash>] <remote> <local>        copy file/dir from device
+  rm [-b <bundle id|crash>] <remote>                  remove file/dir from device
+
+example:
+  iosutil ls /
+  iosutil ls -b crash /
+  iosutil ls -b com.baidu.BaiduMobile /Documents
+
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:44:46.608 instruments[98331:17748594] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
++ rootPath=/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources
++ appPath=
++ app=
++ '[' = ipa ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 9: [: =: unary operator expected
++ '[' = app ']'
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/install.sh: line 20: [: =: unary operator expected
+++ ioreg -w 0 -rc IOUSBDevice -k SupportsIPhoneOS
+++ grep 'USB Serial Number'
+++ cut -d= -f2
+++ cut '-d"' -f2
++ uuid=f9b2f389f7b5c359b14ec637306412bb69facdfe
++ '[' 40 -eq 40 ']'
++ /Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/iosutil -s f9b2f389f7b5c359b14ec637306412bb69facdfe install
+iosutil version 0.9.7
+
+  -s <device id>                                      specific device
+  devices                                             list all connected devices
+
+device commands:
+  install <.app/.ipa path>                            install app
+  uninstall <bundle id>                               uninstall app
+  listapp                                             list all installed apps
+  logcat                                              tail syslog
+  info                                                show device infos
+  ls [-b <bundle id|crash>] <path>                    ls directory
+  push [-b <bundle id|crash>] <local> <remote>        copy file/dir to device
+  pull [-b <bundle id|crash>] <remote> <local>        copy file/dir from device
+  rm [-b <bundle id|crash>] <remote>                  remove file/dir from device
+
+example:
+  iosutil ls /
+  iosutil ls -b crash /
+  iosutil ls -b com.baidu.BaiduMobile /Documents
+
+/Users/dengtacj/smallapple-master/bin//iOSRecorder.app/Contents/Resources/instruments.sh: line 9: [: =: unary operator expected
+2016-08-25 11:45:31.134 instruments[98366:17748884] Failed to start Instruments daemon on 'test (9.3.3)' (Could not connect to the device.)
+Instruments Usage Error : Specified target process is invalid: 
+instruments, version 7.2 (59503)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-08-25 11:45:36.796 iOSRecorder[97939:17746816] User entered: tag
+No matching processes belonging to you were found
+No matching processes belonging to you were found
